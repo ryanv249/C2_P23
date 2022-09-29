@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">C2_P23</string>
+    <string name="bText">Change</string>
+    <string name="lText">"I'm a traffic light"</string>
+</resources>
