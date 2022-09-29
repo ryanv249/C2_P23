@@ -30,13 +30,13 @@ public class MainActivity extends AppCompatActivity {
 
                 switch (hex){
                     case (red):
-                        L.setTextColor(green);
+                        L.setTextColor(getResources().getColor(R.color.green));
                         break;
                     case (green):
-                        L.setTextColor(yellow);
+                        L.setTextColor(getResources().getColor(R.color.yellow));
                         break;
                     case (yellow):
-                        L.setTextColor(red);
+                        L.setTextColor(getResources().getColor(R.color.red));
                         break;
                 }
 
